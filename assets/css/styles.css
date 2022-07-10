@@ -1,0 +1,30 @@
+.contentheader {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 350px;
+  background-image: url("../../assets/img/main.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .contentheader .contentsection {
+    width: 100%;
+  }
+}
+
+.contentheader .contentsection h2 {
+  text-align: center;
+  line-height: 110px;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .contentheader .contentsection h2 {
+    font-size: 20px;
+  }
+}
+
